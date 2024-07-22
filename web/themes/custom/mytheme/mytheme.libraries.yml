@@ -15,6 +15,10 @@ bootstrap:
       https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.css: {type: external}
       https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css: {type: external}
       https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css: {type: external}
+      https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css': {type: external}
+      https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css': {type: external}
+      https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css': {type: external}
+      https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css': {type: external}
 
     
   js:
@@ -26,6 +30,8 @@ bootstrap:
     lib/owlcarousel/owl.carousel.min.js: {}
     https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js: {type: external}
     https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js: {type: external}
+    https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js': {type: external}
+    https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js': {type: external}
   dependencies:
     - core/jquery
     - mytheme/owlcarousel

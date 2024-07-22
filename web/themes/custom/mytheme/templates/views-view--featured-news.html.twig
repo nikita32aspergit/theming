@@ -34,6 +34,7 @@
   set classes = [
     'view',
     'view-' ~ id|clean_class,
+    'view-content',
     'view-id-' ~ id,
     'view-display-id-' ~ display_id,
     dom_id ? 'js-view-dom-id-' ~ dom_id,
@@ -62,10 +63,8 @@
   {% endif %}
 
   {% if rows %}
-    <div class="view-content owl-stage" >
-     
+    <div class="view-content">
       {{ rows }}
-      
     </div>
   {% elseif empty %}
     <div class="view-empty">
