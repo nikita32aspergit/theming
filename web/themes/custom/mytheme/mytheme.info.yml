@@ -1,0 +1,38 @@
+name: Mytheme
+type: theme
+description: A demo theme created based on Bootstrap
+package: Other
+base theme: bootstrap5
+core: 10.x
+logo: toi.jpg
+core_version_requirement: 10.x
+
+regions:
+  # header: 'header'
+  # primary_menu: 'primary menu'
+  # secondary_menu: 'secondary menu'
+  # page_top: 'page top'
+  # page_bottom: 'page bottom'
+  # highlighted: 'highlighted'
+  # featured_top: 'featured top'
+  # breadcrumb: 'breadcrumb'
+ 
+  # sidebar_first: 'left sidebar' 
+  # sidebar_second: 'right sidebar' 
+  # footer_first: 'footer first'
+  # footer_second: 'footer second'
+  logo: 'logo'
+  navbar: 'navbar' 
+ 
+  slider: 'slider'
+  content: 'content'
+  breaking_news: 'Breaking News'
+  featured: 'featured'
+  news_with_sidebar: 'news sidebar'
+  footer: 'footer'
+
+
+libraries:
+  - mytheme/bootstrap
+  - mytheme/global
+  - mytheme/globalll

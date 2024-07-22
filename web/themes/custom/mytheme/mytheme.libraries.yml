@@ -1,0 +1,51 @@
+bootstrap:
+  css:
+    theme:
+      css/style.min.css: {}
+      lib/owlcarousel/assets/owl.carousel.css: {}
+      lib/owlcarousel/assets/owl.carousel.min.css: {}
+      lib/owlcarousel/assets/owl.theme.default.css: {}
+      lib/owlcarousel/assets/owl.theme.default.min.css: {}
+      lib/owlcarousel/assets/owl.theme.green.css: {}
+      lib/owlcarousel/assets/owl.theme.green.min.css: {}
+      https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css: {type: external}
+      https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css: {type: external}
+      https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css: {type: external}
+      https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css: {type: external}
+      https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.css: {type: external}
+      https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css: {type: external}
+
+
+    
+  js:
+    js/main.js: {}
+    js/slider.js: {}
+    lib/easing/easing.js: {}
+    lib/easing/easing.min.js: {}
+    lib/owlcarousel/owl.carousel.js: {}
+    lib/owlcarousel/owl.carousel.min.js: {}
+    https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js: {type: external}
+    https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js: {type: external}
+  dependencies:
+    - core/jquery
+    - mytheme/owlcarousel
+
+  
+
+
+
+
+
+global:
+  css:
+    theme:
+      css/global.css: {}
+
+
+
+globalll:
+  css:
+    theme:
+      css/style.css: {}
+
+      
